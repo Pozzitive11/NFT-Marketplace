@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="img/password.png" sizes="16x16">
+  <title>ENDFT</title>
+  <link rel="stylesheet" href="dist/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="logo" href="#">
+            <img loading="lazy" src="img/logo.png" class="image" width="194" height="60" alt="logo ENDFT">
+          </a>
+          <nav class="nav" title="Main menu">
+            <ul class="list-reset nav__list">
+              <li class="nav__item"><a href="#marketplace" class="nav__link">Marketplace</a></li>
+              <li class="nav__item"><a href="#collection" class="nav__link">Collection</a></li>
+              <li class="nav__item"><a href="#community" class="nav__link">Community</a></li>
+              <li class="nav__item"><a href="#create" class="nav__link">Create</a></li>
+            </ul>
+          </nav>
+          <button class="btn-reset btn btn--regular header__button">Connect Wallet</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                Discover collect, & sell <span class="hero__title--gradient">Extraordinary NFTs</span>
+              </h1>
+              <p class="hero__desc">
+                the leading NFT Marketplace on Ethereum
+                Home to the next generation of digital creators.
+                Discover the best NFT collections.
+              </p>
+              <div class="hero__buttons">
+                <button class="btn-reset btn btn--regular hero__btn">Explore</button>
+                <button class="btn-reset btn btn--stroke hero__btn">Create</button>
+              </div>
+              <div class="statistics">
+                <div class="statistics__item">
+                  <div class="statistics__item-number">432K+</div>
+                  <div class="statistics__item-descr">Collections</div>
+                </div>
+                <div class="statistics__item">
+                  <div class="statistics__item-number">200K+</div>
+                  <div class="statistics__item-descr">Artists</div>
+                </div>
+                <div class="statistics__item">
+                  <div class="statistics__item-number">10K+</div>
+                  <div class="statistics__item-descr">Community</div>
+                </div>
+              </div>
+            </div>
+            <img loading="lazy" src="img/hero/hero-img.png" class="hero__img" width="1000" height="900"
+              alt="NFT example">
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="container">
+          <h2 class="visually-hidden partners__title">Our partners</h2>
+          <ul class="list-reset partners__list">
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <img src="img/partners/partners-1.png" alt="Logo 1" class="partners__logo">
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <img src="img/partners/partners-2.png" alt="Logo 2" class="partners__logo">
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <img src="img/partners/partners-3.png" alt="Logo 3" class="partners__logo">
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <img src="img/partners/partners-4.png" alt="Logo 4" class="partners__logo">
+              </a>
+            </li>
+            <li class="partners__item">
+              <a href="#" class="partners__link">
+                <img src="img/partners/partners-5.png" alt="Logo 5" class="partners__logo">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="trending">
+        <h2 class="title trending__title">Trending NFTs</h2>
+        <div class="swiper trending__content">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="trending__item">
+                <img loading="lazy" src="img/trending/main/trending-main-1.png" class="trending__logo" width="400"
+                  height="400" alt="CryptoPunk 3D #13">
+                <div class="trending__item-content">
+                  <img loading="lazy" src="img/trending/logo/trending-logo-1.png" class="trending__image" width="63"
+                    height="63" alt="3D cryptopunk">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      CryptoPunk 3D #13
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      3D cryptopunk
+                    </h4>
+                  </div>
+                  <img loading="lazy" src="img/trending/crypto/crypto-1.png" class="trending__crypto" width="63"
+                    height="63" alt="3D cryptopunk">
+                </div>
+                <div class="trending__item-bottom crypto__about">
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                    <div class="crypto__price">latest Bid</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">4.12 ETH</div>
+                    <div class="crypto__price">from</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">$103,025</div>
+                    <div class="crypto__price crypto__price--red">-2.25%</div>
+                  </div>
+                </div>
+                <button class="btn-reset btn btn--regular trending__item-button">Collect Now</button>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="trending__item">
+                <img loading="lazy" src="img/trending/main/trending-main-2.png" class="trending__logo" width="400"
+                  height="400" alt="CryptoPunk 3D #13">
+                <div class="trending__item-content">
+                  <img loading="lazy" src="img/trending/logo/trending-logo-2.png" class="trending__image" width="63"
+                    height="63" alt="3D cryptopunk">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      gangstaboi v.1
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      GB_Gangs
+                    </h4>
+                  </div>
+                  <img loading="lazy" src="img/trending/crypto/crypto-1.png" class="trending__crypto" width="63"
+                    height="63" alt="3D cryptopunk">
+                </div>
+                <div class="trending__item-bottom crypto__about">
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                    <div class="crypto__price">latest Bid</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">4.12 ETH</div>
+                    <div class="crypto__price">from</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">$103,025</div>
+                    <div class="crypto__price crypto__price--red">-2.25%</div>
+                  </div>
+                </div>
+                <button class="btn-reset btn btn--regular trending__item-button">Collect Now</button>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="trending__item">
+                <img loading="lazy" src="img/trending/main/trending-main-3.png" class="trending__logo" width="400"
+                  height="400" alt="HyperApe">
+                <div class="trending__item-content">
+                  <img loading="lazy" src="img/trending/logo/trending-logo-3.png" class="trending__image" width="63"
+                    height="63" alt="3D cryptopunk">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      HyperApe
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      HyperApe.co
+                    </h4>
+                  </div>
+                  <img loading="lazy" src="img/trending/crypto/crypto-1.png" class="trending__crypto" width="63"
+                    height="63" alt="3D cryptopunk">
+                </div>
+                <div class="trending__item-bottom crypto__about">
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                    <div class="crypto__price">latest Bid</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">4.12 ETH</div>
+                    <div class="crypto__price">from</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">$103,025</div>
+                    <div class="crypto__price crypto__price--red">-2.25%</div>
+                  </div>
+                </div>
+                <button class="btn-reset btn btn--regular trending__item-button">Collect Now</button>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="trending__item">
+                <img loading="lazy" src="img/trending/main/trending-main-4.png" class="trending__logo" width="400"
+                  height="400" alt="CryptoPunk 3D #13">
+                <div class="trending__item-content">
+                  <img loading="lazy" src="img/trending/logo/trending-logo-4.png" class="trending__image" width="63"
+                    height="63" alt="3D cryptopunk">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      CryptoPunk 3D #13
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      3D cryptopunk
+                    </h4>
+                  </div>
+                  <img loading="lazy" src="img/trending/crypto/crypto-1.png" class="trending__crypto" width="63"
+                    height="63" alt="3D cryptopunk">
+                </div>
+                <div class="trending__item-bottom crypto__about">
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                    <div class="crypto__price">latest Bid</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">4.12 ETH</div>
+                    <div class="crypto__price">from</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">$103,025</div>
+                    <div class="crypto__price crypto__price--green">+2.25%</div>
+                  </div>
+                </div>
+                <button class="btn-reset btn btn--regular trending__item-button">Collect Now</button>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="trending__item">
+                <img loading="lazy" src="img/trending/main/trending-main-5.png" class="trending__logo" width="400"
+                  height="400" alt="CryptoPunk 3D #13">
+                <div class="trending__item-content">
+                  <img loading="lazy" src="img/trending/logo/trending-logo-4.png" class="trending__image" width="63"
+                    height="63" alt="3D cryptopunk">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      CryptoPunk 3D #13
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      3D cryptopunk
+                    </h4>
+                  </div>
+                  <img loading="lazy" src="img/trending/crypto/crypto-1.png" class="trending__crypto" width="63"
+                    height="63" alt="3D cryptopunk">
+                </div>
+                <div class="trending__item-bottom crypto__about">
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                    <div class="crypto__price">latest Bid</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">4.12 ETH</div>
+                    <div class="crypto__price">from</div>
+                  </div>
+                  <div class="crypto__info">
+                    <div class="crypto__price crypto__price--big">$103,025</div>
+                    <div class="crypto__price crypto__price--green">+12.45%</div>
+                  </div>
+                </div>
+                <button class="btn-reset btn btn--regular trending__item-button">Collect Now</button>
+              </article>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <button class="btn-reset btn btn--stroke btn--more trending__button">see more</button>
+      </section>
+      <section class="collection">
+        <div class="container">
+          <h2 class="title collection__title">
+            Top Collections
+          </h2>
+          <ul class="list-reset collection-tabs-nav">
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn btn--regular collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Art</span>
+              </button>
+            </li>
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn  btn--stroke collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Collectibles</span>
+              </button>
+            </li>
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn btn--stroke  collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Metaverse</span>
+              </button>
+            </li>
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn btn--stroke  collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Virtual Worlds</span>
+              </button>
+            </li>
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn btn--stroke  collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Sports</span>
+              </button>
+            </li>
+            <li class="collection-tabs-nav__item">
+              <button class="btn-reset btn btn--stroke  collection-tabs-nav__btn collection-tabs-nav--active">
+                <span class="collection-tabs-nav__text">Music</span>
+              </button>
+            </li>
+          </ul>
+          <ul class="list-reset collection-tabs">
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-1.png" alt="collection cover">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      CryptoPunk 3D #13
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      3D cryptopunk
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--green">+12.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-2.png" alt="gangstaboi v.1">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      gangstaboi v.1
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      GB_Gangs
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--red">-2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-3.png" alt="HyperApe">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      HyperApe
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      HyperApe.co
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--red">-2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-4.png" alt="Lyodd$1">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      Lyodd$1
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      Naomi Po
+                    </h4>
+                  </div>
+                  <div class="collection-item__price crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--green">+2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-5.png" alt="Azuki 3D ">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      Azuki 3D
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      AZUKI.JP
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--green">+12.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-6.png" alt="CuteApe White ">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      CuteApe White
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      CuteApe_99
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--red">-2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-7.png" alt="SneakerHead Vol.1">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      SneakerHead Vol.1
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      SneakerHead.Corp
+                    </h4>
+                  </div>
+                  <div class="crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--red">-2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="collection-tabs__item">
+              <a href="#" class="collection-item" data-target="repair">
+                <img class="collection-item__image" src="img/collections/collections-8.png" alt="cvltB3AR">
+                <div class="collection-item__content">
+                  <div class="crypto__name">
+                    <h3 class="crypto__name-collection">
+                      cvltB3AR
+                    </h3>
+                    <h4 class="crypto__name-collector">
+                      CVLTBEAR
+                    </h4>
+                  </div>
+                  <div class="collection-item__price crypto__about">
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">2.45 ETH</div>
+                      <div class="crypto__price">Floor Price</div>
+                    </div>
+                    <div class="crypto__info">
+                      <div class="crypto__price crypto__price--big">$103,025</div>
+                      <div class="crypto__price crypto__price--green">+2.25%</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <button class="btn-reset btn btn--stroke btn--more collection__button">see more</button>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <h2 class="title categories__title">
+            Top Categories
+          </h2>
+          <div class="swiper categories__content">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="categories__item">
+                  <div class="categories__images">
+                    <img class="categories__images--small-1" src="img/categories/categories-small-1.png" alt="">
+                    <img class="categories__images--small-2" src="img/categories/categories-small-2.png" alt="">
+                    <img class="categories__images--big" src="img/categories/categories-big-1.png" alt="">
+                  </div>
+                  <span class="categories__text">Art</span>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="categories__item">
+                  <div class="categories__images">
+                    <img class="categories__images--small-1" src="img/categories/categories-small-3.png" alt="">
+                    <img class="categories__images--small-2" src="img/categories/categories-small-4.png" alt="">
+                    <img class="categories__images--big" src="img/categories/categories-big-2.png" alt="">
+                  </div>
+                  <span class="categories__text">Collectibles</span>
+                </article>
+              </div>
+              <div class="swiper-slide">
+                <article class="categories__item">
+                  <div class="categories__images">
+                    <img class="categories__images--small-1" src="img/categories/categories-small-5.png" alt="">
+                    <img class="categories__images--small-2" src="img/categories/categories-small-6.png" alt="">
+                    <img class="categories__images--big" src="img/categories/categories-big-3.png" alt="">
+                  </div>
+                  <span class="categories__text">Virtual Worlds & Metaverse</span>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <button class="btn-reset btn btn--stroke btn--more trending__button">see more</button>
+      </section>
+      <section class="sell">
+        <div class="container">
+          <div class="sell__wrapper">
+            <h2 class="title sell__title">
+              Create and sell your NFTs
+            </h2>
+            <ul class="list-reset sell__list">
+              <li class="sell__item sell__item--wallet">
+                <h3 class="sell__subtitle">Set up your wallet</h3>
+                <p class="sell__descr">
+                  Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the wallet icon in the top
+                  right corner.
+                  Learn about the wallets we support.
+                </p>
+              </li>
+              <li class="sell__item sell__item--upload">
+                <h3 class="sell__subtitle">Upload & Create Collection</h3>
+                <p class="sell__descr">
+                  Upload your work then Click My Collections and set up your collection. Add social links, a
+                  description,
+                  profile & banner
+                  images, and set a secondary sales fee.
+                </p>
+              </li>
+              <li class="sell__item sell__item--sale">
+                <h3 class="sell__subtitle">List them for sale</h3>
+                <p class="sell__descr">
+                  Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want
+                  to
+                  sell your NFTs,
+                  and we help you sell them
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="articles">
+        <div class="container">
+          <h2 class="title articles__title">
+            Articles
+          </h2>
+          <ul class="list-reset articles__list">
+            <li class="articles__item">
+              <img loading="lazy" src="img/articles/articles-1.png" class="articles__img" width="442" height="275"
+                alt="We've lowered marketplace fees on all your favorite NFTs">
+              <div class="articles__item-content">
+                <p class="articles__text">
+                  We've lowered marketplace fees on all your favorite NFTs
+                </p>
+                <span class="articles__date">April 03, 2022</span>
+              </div>
+            </li>
+            <li class="articles__item">
+              <img loading="lazy" src="img/articles/articles-2.png" class="articles__img" width="442" height="275"
+                alt="Your Ultimate Guide to Getting Started With NFTs on Rarible">
+              <div class="articles__item-content">
+                <p class="articles__text">
+                  Your Ultimate Guide to Getting Started With NFTs on Rarible
+                </p>
+                <span class="articles__date">January 23, 2022</spa>
+
+              </div>
+            </li>
+            <li class="articles__item">
+              <img loading="lazy" src="img/articles/articles-3.png" class="articles__img" width="442" height="275"
+                alt="Why Community Marketplaces are the future of NFT trading">
+              <div class="articles__item-content">
+                <p class="articles__text">
+                  Why Community Marketplaces are the future of NFT trading
+                </p>
+                <div class="articles__date">July 7, 2022</div>
+              </div>
+            </li>
+          </ul>
+          <button class="btn-reset btn btn--stroke btn--more articles__button">see more</button>
+        </div>
+      </section>
+      <section class="more">
+        <div class="container">
+          <div class="more__content">
+            <h2 class="title more__title">Get More Updates</h2>
+            <p class="more__subtitle">
+              Join our mailing list to stay in the loop with our newest feature releases, NFT drops, and tips and tricks
+            </p>
+            <form action="#" class="more-form more__form">
+              <label class="more-form__label">
+                <input type="email" name="email" placeholder="Your Email..." class="more-form__input">
+              </label>
+              <button class="btn-reset more-form__btn btn btn--regular" type="submit">I’m In</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__left">
+            <a href="#" class="footer__logo">
+              <img src="img/footer-logo.svg" alt="ENDFT Logo">
+            </a>
+            <p class="footer__descr">
+              The leading NFT Marketplace on Ethereum
+              Home to the next generation of digital creators.
+              Discover the best NFT collections.
+            </p>
+            <ul class="social footer__social list-reset">
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link" aria-label="Discord">
+                  <svg>
+                    <use xlink:href="sprite.svg#discord"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link" aria-label="Twitter">
+                  <svg>
+                    <use xlink:href="sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link" aria-label="Instagram">
+                  <svg>
+                    <use xlink:href="sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" target="_blank" class="social__link" aria-label="Youtube">
+                  <svg>
+                    <use xlink:href="sprite.svg#youtube"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <nav class="footer-nav footer__nav" title="secondary navigation">
+            <div class="footer-nav__col">
+              <h3 class="footer-nav__title footer-title">Marketplace</h3>
+              <ul class="list-reset footer-nav__list">
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Explore
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Articles
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    How it Works
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Help
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-nav__col">
+              <h3 class="footer-nav__title footer-title">Links</h3>
+              <ul class="list-reset footer-nav__list">
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Tokens
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    API
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Big Bounty
+                  </a>
+                </li>
+                <li class="footer-nav__item">
+                  <a href="#" class="footer-nav__link">
+                    Become Partners
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <small class="footer__copyright">
+          <svg>
+            <use xlink:href="sprite.svg#copy"></use>
+          </svg>
+          2022 eNDFT. all Right Reserved
+        </small>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
