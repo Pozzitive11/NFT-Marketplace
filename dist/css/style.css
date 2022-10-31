@@ -880,7 +880,7 @@ li {
   line-height: 30px;
 }
 
-.site-container {
+body {
   font-family: "Poppins", sans-serif;
   background-image: url(/img/background-site.png);
   background-position: center;
