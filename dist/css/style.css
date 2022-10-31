@@ -222,7 +222,6 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
   font-weight: 600;
   font-size: 55px;
   line-height: 68px;
@@ -362,7 +361,6 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 .hero__desc {
   margin-bottom: 67px;
@@ -884,7 +882,7 @@ li {
 
 .site-container {
   font-family: "Poppins", sans-serif;
-  background-image: url(../img/background-site.png);
+  background-image: url(/img/background-site.png);
   background-position: center;
   background-size: cover;
 }
