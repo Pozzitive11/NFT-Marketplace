@@ -498,11 +498,11 @@ li {
 }
 .trending .swiper-button-prev {
   margin-left: 30px;
-  background-image: url("../../../img/trending/prev.png");
+  background-image: url("../../img/prev.png");
 }
 .trending .swiper-button-next {
   margin-right: 30px;
-  background-image: url("../../../img/trending/next.png");
+  background-image: url("../../img/next.png");
 }
 .trending .swiper-slide-active .trending__logo {
   transition: 0.5s;
@@ -614,12 +614,12 @@ li {
 .categories .swiper-button-prev {
   margin-top: 6px;
   margin-left: 200px;
-  background-image: url("../../../img/trending/prev.png");
+  background-image: url("../../../img/prev.png");
 }
 .categories .swiper-button-next {
   margin-top: 6px;
   margin-right: 200px;
-  background-image: url("../../../img/trending/next.png");
+  background-image: url("../../../img/next.png");
 }
 
 .sell {
