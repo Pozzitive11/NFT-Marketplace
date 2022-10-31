@@ -884,7 +884,7 @@ li {
 
 .site-container {
   font-family: "Poppins", sans-serif;
-  background-image: url("/img/background-site.png");
+  background-image: url(../img/background-site.png);
   background-position: center;
   background-size: cover;
 }
