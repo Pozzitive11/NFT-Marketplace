@@ -614,12 +614,12 @@ li {
 .categories .swiper-button-prev {
   margin-top: 6px;
   margin-left: 200px;
-  background-image: url(/img/trending/prev.png);
+  background-image: url("../../img/trending/prev.png");
 }
 .categories .swiper-button-next {
   margin-top: 6px;
   margin-right: 200px;
-  background-image: url(/img/trending/next.png);
+  background-image: url("../../img/trending/next.png");
 }
 
 .sell {
@@ -646,13 +646,13 @@ li {
   background-repeat: no-repeat;
 }
 .sell__item--wallet {
-  background-image: url("/img/sell/wallet.svg");
+  background-image: url("../../img/sell/wallet.svg");
 }
 .sell__item--upload {
-  background-image: url("/img/sell/upload.svg");
+  background-image: url("../../img/sell/upload.svg");
 }
 .sell__item--sale {
-  background-image: url("/img/sell/sale.svg");
+  background-image: url("../../img/sell/sale.svg");
 }
 .sell__subtitle {
   margin-bottom: 28px;
@@ -882,7 +882,7 @@ li {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(/img/background-site.png);
+  background-image: url("../../img/background-site.png");
   background-position: center;
   background-size: cover;
 }
